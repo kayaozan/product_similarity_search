@@ -1,7 +1,7 @@
 WORK IN PROGRESS
 
 # Product Similarity Search
-This aim of this project is to build a pipeline to find similar products to a given image. Let us break down the challenges of this project.
+This aim of this project is to build a pipeline to find similar products to a given image. Let us break down the challenges.
 
 ## Exploration
 ### Dataset
