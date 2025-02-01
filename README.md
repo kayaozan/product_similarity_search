@@ -54,9 +54,9 @@ After building the dataset of features, it is ready to be compared to any given 
 ## [Streamlit](https://streamlit.io/) App
 To be able to send images as user and check the results, a platform was necessary. Streamlit is a library to run Python codes in a web browser without any knowledge about web design.
 
-I've included a script named `object_detection_app.py` in the repository. It consists of a simple web page design that lets user to send an image URL.
+I've included a script named `object_detection_app.py` in the repository. It consists of a simple web page design that lets user to send an image URL. Similarity comparison is run in the background and the results are shown.
 
-Similarity comparison is run in the background and the results are shown. Here is a screenshot of the page. Notice the detected shoe in the image on the left.
+Here is a screenshot of the page. Notice the detected shoe in the image on the left.
 
 ![image](https://github.com/user-attachments/assets/0701f647-2403-4e23-8eae-a3985416260f)
 
