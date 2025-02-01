@@ -22,14 +22,14 @@ There was no way to make "crop the non-white" work for this kind of images. So t
 Then I thought, why not use an object detection model to process them? I figured I was also going to need it to process images the user will send. So the search for an object detector began.
 
 ### Object Detection
-I've examined a lot of object detection models. Some of them was able to detect shoes in images if they are worn by a person, but all of them failed to detect them mostly in close-up images, so are most of the dataset.
+I've examined a lot of object detection models. Some of them was able to detect shoes in images if they are worn by a person, but all of them failed to detect them mostly in close-up shots, so are most of the dataset.
 
 I was about to give up and train my own model, then I found YOLO, specifically the [YOLOv8](https://docs.ultralytics.com/datasets/detect/open-images-v7/) trained on [Open Images Dataset](https://storage.googleapis.com/openimages/web/index.html).
 
 I'd tried YOLO before, but this one in particular was able to detect every single one of the shoes in the images.
 
 ### Feature Extraction
-Once the shoes are detected in images, they are cropped are ready to be preprossed before similarity check. At this point, a feature extraction model is needed.
+Once the shoes are detected in images, they are cropped and ready to be preprossed before similarity check. At this point, a feature extraction model is needed.
 
 I considered using YOLO for extracting features. That would also mean running one model instead of two, lowering the resources used, but I experienced that the features extracted by YOLO was unsatisfactory.
 
