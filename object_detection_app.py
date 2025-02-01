@@ -17,6 +17,7 @@ from utils.webapp import print_all_colors
 import configparser
 config = configparser.ConfigParser()
 config.read('config.ini')
+config = config['DEFAULTS']
 
 # Default page configs.
 st.set_page_config(layout='wide',
