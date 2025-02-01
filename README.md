@@ -1,5 +1,3 @@
-WORK IN PROGRESS
-
 # Product Similarity Search
 This aim of this project is to build a pipeline to find similar products to a given image. Let us begin by breaking down the challenges.
 
