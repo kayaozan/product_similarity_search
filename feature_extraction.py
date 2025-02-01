@@ -14,6 +14,7 @@ from utils.image import image_by_URL, get_non_white_bounding_box, pad_to_square
 import configparser
 config = configparser.ConfigParser()
 config.read('config.ini')
+config = config['DEFAULTS']
 
 # Read the images of dataset.
 images = pd.read_pickle('images_dataset')
