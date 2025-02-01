@@ -60,4 +60,4 @@ Similarity comparison is run in the background and the results are shown. Here i
 
 ![image](https://github.com/user-attachments/assets/0701f647-2403-4e23-8eae-a3985416260f)
 
-Lastly, I've included a Dockerfile to run everything in a container. Exposing a port in the file lets streamlit to be run in the local web browser.
+Lastly, I've included a Dockerfile to run everything in a container. Exposing a port in the file lets Streamlit to be run in the local web browser.
